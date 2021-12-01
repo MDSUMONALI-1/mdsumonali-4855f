@@ -9,19 +9,19 @@ const Travel = () => {
       <h5 className="card-title">Travel Agency</h5>
       <p className="card-text">
 
-
-2.Here you will get a dashboard both for users and admin. <br/>
-
-3.Admin will be able to easily upload products and make others admin. <br/>
-
-4.Customers will be able to purchase . <br/>
-
-5.Users can Register in the website and Login. <br/>
-
-6.The login users will be able to manage his/her orders. <br/>
+      It is a MERN Stack full project. <br/>
 
 This project is designed using the css framework ReactBootstrap. <br/>
-8.customer also give review.</p>
+
+The login users will be able to manage his/her orders.<br/>
+
+Admin will be able to easily upload products and make others admin.<br/>
+
+Here you will get a dashboard both for users and admin.<br/>
+
+Users can Register in the website and Login.<br/>
+
+Customers will be able to purchase .They also can give review.</p>
     </div>
     <div className="card-footer mx-5">
 
