@@ -9,6 +9,9 @@ import Contact from './Components/Contact/Contact';
 import Projects from './Components/Projects/Projects';
 import Blog from './Components/Blogs/Blog';
 import Footer from './Components/Footer/Footer';
+import Suzuki from './Components/Suzuki/Suzuki';
+import Healthcare from './Components/Suzuki/Healthcare/Healthcare';
+import Travel from './Components/Travel/Travel';
 
 function App() {
   return (
@@ -33,6 +36,15 @@ function App() {
             </Route>
             <Route path="/blogs">
               <Blog></Blog>
+            </Route>
+            <Route path="/project/1">
+              <Suzuki></Suzuki>
+            </Route>
+            <Route path="/project/2">
+              <Healthcare></Healthcare>
+            </Route>
+            <Route path="/project/3">
+              <Travel></Travel>
             </Route>
             </Switch>
      <Footer></Footer>

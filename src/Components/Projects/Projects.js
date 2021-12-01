@@ -2,6 +2,7 @@ import React from 'react';
 import suzuki from './../assets/suzuki-bike.jpg';
 import healthcare from './../assets/healthcare.jpg';
 import travel from './../assets/travel-agency.jpg';
+import { Link } from 'react-router-dom';
 const Projects = () => {
     return (
         <div>
@@ -33,8 +34,8 @@ This project is designed using the css framework ReactBootstrap. <br/>
     <div className="card-footer">
     <a href='https://suzuki-bikes.web.app/'>Live site</a>
     <a className=" mx-2" href='https://github.com/MDSUMONALI-1/suzuki-bike-client'>Client-code</a>
-    <a href='https://github.com/MDSUMONALI-1/suzuki-bike-server'>Server-code</a>
-    <a href="" class="btn btn-info" role="button">View Details</a>
+    <a href='https://github.com/MDSUMONALI-1/suzuki-bike-server'>Server-code</a>  <br/>
+    <Link to="/project/1" class="btn btn-info" role="button">View Details</Link>
     </div>
   </div>
   <div className="card">
@@ -50,8 +51,8 @@ customer also give review.</p>
     </div>
     <div className="card-footer">
     <a href='https://healthcare-b0503.firebaseapp.com/'>Live site</a>
-    <a className=" mx-2" href='https://github.com/MDSUMONALI-1/healthcare-website'>Client-code</a>
-    
+    <a className=" mx-2" href='https://github.com/MDSUMONALI-1/healthcare-website'>Client-code</a> <br/>
+    <Link to="/project/2" class="btn btn-info" role="button">View Details</Link>
     </div>
   </div>
   <div className="card">
@@ -79,6 +80,7 @@ This project is designed using the css framework ReactBootstrap. <br/>
      <a href='https://travel-agaency.firebaseapp.com/'>live site</a>
       <a className=" mx-2" href='https://github.com/MDSUMONALI-1/travel-agency-client'>Client-code</a>
       <a href='https://github.com/MDSUMONALI-1/travel-agency-server'>Server-code</a>
+      <Link to="/project/3" class="btn btn-info" role="button">View Details</Link>
     </div>
   </div>
 </div>
