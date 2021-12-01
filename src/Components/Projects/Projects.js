@@ -59,7 +59,7 @@ customer also give review.</p>
     <div className="card-body">
       <h5 className="card-title">Travel Agency</h5>
       <p className="card-text">
-1.Build With React,MongoDb,Node.js ,Express.js <br/>
+
 
 2.Here you will get a dashboard both for users and admin. <br/>
 
